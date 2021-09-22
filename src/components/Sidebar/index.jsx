@@ -1,7 +1,11 @@
 import React from 'react';
-import { Container } from './style';
+import { Container, Header } from './style';
 
 export const Sidebar = () => {
-  return <Container>sidebar</Container>;
+  return (
+    <Container>
+      <Header></Header>
+    </Container>
+  );
 };
 export default Sidebar;

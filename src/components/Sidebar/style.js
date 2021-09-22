@@ -8,3 +8,12 @@ export const Container = styled.div`
   border: 1px solid red;
   padding: 30px 0;
 `;
+
+export const Header = styled.div`
+  display: flex;
+`;
+
+Header.Logo = styled.img`
+  width: 80px;
+  height: 80px;
+`;
