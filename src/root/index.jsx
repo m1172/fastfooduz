@@ -4,6 +4,10 @@ import Sidebar from '../components/Sidebar';
 import { Container } from './style';
 
 export const Root = () => {
-  return <Container>root</Container>;
+  return (
+    <Container>
+      <Sidebar />
+    </Container>
+  );
 };
 export default Root;
