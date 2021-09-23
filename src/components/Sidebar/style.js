@@ -14,6 +14,7 @@ export const Header = styled.div`
   padding: 0 24px;
   height: 100px;
   align-items: center;
+  margin-bottom: 64px;
 `;
 
 Header.Logo = styled.img`
