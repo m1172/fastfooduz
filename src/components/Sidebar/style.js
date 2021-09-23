@@ -27,8 +27,17 @@ export const Wrapper = styled.div`
 `;
 
 Wrapper.Title = styled.div`
-  font-family: SFProDisplay;
+  font-family: SFProDisplay bold;
   font-size: 16px;
   line-height: 19px;
   color: #2d3a45;
+`;
+
+Wrapper.Desc = styled.div`
+  font-family: SFProDisplay;
+  font-size: 12px;
+  line-height: 14px;
+  color: #2d3a45;
+  mix-blend-mode: normal;
+  opacity: 0.5;
 `;

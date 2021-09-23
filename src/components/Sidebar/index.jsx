@@ -7,7 +7,10 @@ export const Sidebar = () => {
     <Container>
       <Header>
         <Header.Logo src={logo} alt='alt' />
-        <Wrapper></Wrapper>
+        <Wrapper>
+          <Wrapper.Title>Fast Food</Wrapper.Title>
+          <Wrapper.Desc>Online maxsulot sotuvi</Wrapper.Desc>
+        </Wrapper>
       </Header>
     </Container>
   );
