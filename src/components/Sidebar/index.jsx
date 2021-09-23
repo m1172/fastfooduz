@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Header, Wrapper } from './style';
 import logo from '../../assets/imgs/logo.png';
+import { sidebar } from '../../utils/sidebar';
 
 export const Sidebar = () => {
   return (
@@ -12,6 +13,11 @@ export const Sidebar = () => {
           <Wrapper.Desc>Online maxsulot sotuvi</Wrapper.Desc>
         </Wrapper>
       </Header>
+      <Wrapper>
+        {sidebar.map(({ title, Icon }) => (
+          <h1>{title}</h1>
+        ))}
+      </Wrapper>
     </Container>
   );
 };
