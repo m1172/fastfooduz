@@ -25,3 +25,10 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
 `;
+
+Wrapper.Title = styled.div`
+  font-family: SFProDisplay;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2d3a45;
+`;

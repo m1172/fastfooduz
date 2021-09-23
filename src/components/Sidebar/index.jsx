@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Header } from './style';
+import { Container, Header, Wrapper } from './style';
 import logo from '../../assets/imgs/logo.png';
 
 export const Sidebar = () => {
@@ -7,6 +7,7 @@ export const Sidebar = () => {
     <Container>
       <Header>
         <Header.Logo src={logo} alt='alt' />
+        <Wrapper></Wrapper>
       </Header>
     </Container>
   );
