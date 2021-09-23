@@ -11,10 +11,17 @@ export const Container = styled.div`
 
 export const Header = styled.div`
   display: flex;
+  padding: 0 24px;
 `;
 
 Header.Logo = styled.img`
   width: 70px;
   height: 70px;
+  margin-right: 20px;
   border-radius: 50%;
+`;
+
+export const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
 `;
