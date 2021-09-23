@@ -45,3 +45,12 @@ Wrapper.Desc = styled.div`
   mix-blend-mode: normal;
   opacity: 0.5;
 `;
+
+export const Link = styled(NavLink)`
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #2d3a45;
+`;
