@@ -14,7 +14,7 @@ export const Header = styled.div`
 `;
 
 Header.Logo = styled.img`
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
 `;
