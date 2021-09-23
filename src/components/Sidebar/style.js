@@ -12,6 +12,8 @@ export const Container = styled.div`
 export const Header = styled.div`
   display: flex;
   padding: 0 24px;
+  height: 100px;
+  align-items: center;
 `;
 
 Header.Logo = styled.img`
