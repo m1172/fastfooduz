@@ -5,10 +5,12 @@ import { Body, Container } from './style';
 
 export const Root = () => {
   return (
-    <Container>
-      <Sidebar />
-      <Body>body</Body>
-    </Container>
+    <Router>
+      <Container>
+        <Sidebar />
+        <Body>body</Body>
+      </Container>
+    </Router>
   );
 };
 export default Root;
