@@ -18,7 +18,7 @@ export const Sidebar = () => {
           <Link to={path}>
             <IconWrappper>
               <Icon />
-            </IconWrappper>{' '}
+            </IconWrappper>
             {title}
           </Link>
         ))}

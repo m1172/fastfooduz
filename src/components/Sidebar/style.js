@@ -47,6 +47,8 @@ Wrapper.Desc = styled.div`
 `;
 
 export const Link = styled(NavLink)`
+  display: flex;
+  align-items: center;
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
