@@ -3,12 +3,14 @@ import {
   activeStyle,
   Container,
   Header,
-  IconWrappper,
+  IconWrapper,
   Link,
+  Logout,
   Wrapper,
 } from './style';
 import logo from '../../assets/imgs/logo.png';
 import { sidebar } from '../../utils/sidebar';
+import { ReactComponent as Chiqish } from '../../assets/icons/logout.svg';
 
 export const Sidebar = () => {
   return (
@@ -20,17 +22,24 @@ export const Sidebar = () => {
           <Wrapper.Desc>Online maxsulot sotuvi</Wrapper.Desc>
         </Wrapper>
       </Header>
-      <Wrapper>
+      <Wrapper left>
         {sidebar.map(({ title, Icon, path }) => (
           <Link activeStyle={activeStyle} to={path}>
-            <IconWrappper>
+            <IconWrapper>
               <Icon />
-            </IconWrappper>
+            </IconWrapper>
             {title}
           </Link>
         ))}
+        <Logout>
+          <IconWrapper>
+            <Chiqish />
+          </IconWrapper>
+          Chiqish
+        </Logout>
       </Wrapper>
     </Container>
   );
 };
+
 export default Sidebar;
