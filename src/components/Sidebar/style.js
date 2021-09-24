@@ -58,6 +58,9 @@ export const Link = styled(NavLink)`
   padding-left: 40px;
   margin-bottom: 20px;
   color: #2d3a45;
+  margin-bottom: 20px;
+  margin-right: 24px;
+  border-radius: 0px 6px 6px 0px;
 `;
 
 export const IconWrappper = styled.div`
@@ -69,3 +72,8 @@ export const IconWrappper = styled.div`
   background: #f6f6f6;
   border-radius: 6px;
 `;
+
+export const activeStyle = {
+  background: '#FCB600',
+  color: 'white',
+};
