@@ -52,5 +52,8 @@ export const Link = styled(NavLink)`
   font-weight: 500;
   font-size: 15px;
   line-height: 18px;
+  width: 100%;
+  padding-left: 40px;
+  margin-bottom: 20px;
   color: #2d3a45;
 `;
