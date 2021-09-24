@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Header, Link, Wrapper } from './style';
+import { Container, Header, IconWrappper, Link, Wrapper } from './style';
 import logo from '../../assets/imgs/logo.png';
 import { sidebar } from '../../utils/sidebar';
 
@@ -15,7 +15,12 @@ export const Sidebar = () => {
       </Header>
       <Wrapper>
         {sidebar.map(({ title, Icon, path }) => (
-          <Link to={path}>{title}</Link>
+          <Link to={path}>
+            <IconWrappper>
+              <Icon />
+            </IconWrappper>{' '}
+            {title}
+          </Link>
         ))}
       </Wrapper>
     </Container>
