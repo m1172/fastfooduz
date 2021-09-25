@@ -89,5 +89,5 @@ export const Logout = styled.div`
   line-height: 19px;
   color: #2d3a45;
   cursor: pointer;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 `;
