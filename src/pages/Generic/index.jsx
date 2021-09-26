@@ -1,9 +1,9 @@
 import React from 'react';
 
-export const Generic = () => {
+export const Generic = ({ location }) => {
   return (
     <div>
-      <h1>Coming soon</h1>
+      <h1>Coming soon {location.pathname}</h1>
     </div>
   );
 };
