@@ -9,7 +9,9 @@ export const Root = () => {
     <Router>
       <Container>
         <Sidebar />
-        <Body>body</Body>
+        {sidebar.map(({ id, path, Component }) => (
+          <Route path={path} component={Component} />
+        ))}
       </Container>
     </Router>
   );
