@@ -21,7 +21,9 @@ export const Root = () => {
           <Route path='/'>
             <Redirect to='/buyurtmalar' />
           </Route>
-          <Route path='*'></Route>
+          <Route path='*'>
+            <Redirect to='/buyurtmalar' />
+          </Route>
         </Switch>
       </Container>
     </Router>
