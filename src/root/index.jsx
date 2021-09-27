@@ -18,6 +18,7 @@ export const Root = () => {
           {sidebar.map(({ id, path, Component }) => (
             <Route path={path} component={Component} />
           ))}
+          <Route path='/'></Route>
         </Switch>
       </Container>
     </Router>
