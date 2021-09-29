@@ -13,8 +13,8 @@ export const Root = () => {
   return (
     <Router>
       <Container>
+        <Sidebar />
         <Switch>
-          <Sidebar />
           {sidebar.map(({ id, path, Component }) => (
             <Route path={path} component={Component} />
           ))}
