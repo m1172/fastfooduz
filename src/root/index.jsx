@@ -8,6 +8,7 @@ import {
 import Sidebar from '../components/Sidebar';
 import { sidebar } from '../utils/sidebar';
 import { Body, Container } from './style';
+import Notfound from '../components/Notfound';
 
 export const Root = () => {
   return (
@@ -18,12 +19,10 @@ export const Root = () => {
           {sidebar.map(({ id, path, Component }) => (
             <Route path={path} component={Component} />
           ))}
-          <Route path='/'>
+          <Route exact path='/'>
             <Redirect to='/buyurtmalar' />
           </Route>
-          <Route path='*'>
-            <Redirect to='/buyurtmalar' />
-          </Route>
+          <Route path='*' component={Notfound} />
         </Switch>
       </Container>
     </Router>
