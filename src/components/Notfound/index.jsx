@@ -1,5 +1,8 @@
 import React from 'react';
+import { Container } from './style';
 
 export const Notfound = () => {
-  return <div></div>;
+  return <Container />;
 };
+
+export default Notfound;
