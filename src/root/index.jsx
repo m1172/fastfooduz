@@ -14,7 +14,11 @@ export const Root = () => {
   return (
     <Router>
       <Container>
-        <Sidebar />
+        <Switch>
+          {sidebar.map(({ id, path, Component }) => (
+            <Route path={path} component={Sidebar} />
+          ))}
+        </Switch>
         <Switch>
           {sidebar.map(({ id, path, Component }) => (
             <Route path={path} component={Component} />
