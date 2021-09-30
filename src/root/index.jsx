@@ -23,10 +23,11 @@ export const Root = () => {
           {sidebar.map(({ id, path, Component }) => (
             <Route path={path} component={Component} />
           ))}
-          <Route path='*' component={Notfound} />
+
           <Route exact path='/'>
             <Redirect to='/buyurtmalar' />
           </Route>
+          <Route path='*' component={Notfound} />
         </Switch>
       </Container>
     </Router>
