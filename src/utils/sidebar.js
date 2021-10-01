@@ -7,6 +7,7 @@ import { ReactComponent as hisobot } from '../assets/icons/hisobot.svg';
 import { ReactComponent as hodimlar } from '../assets/icons/settings.svg';
 import { ReactComponent as katalog } from '../assets/icons/settings.svg';
 import Generic from '../pages/Generic';
+import Buyurtma from '../pages/Buyurtmalar';
 
 export const sidebar = [
   {
@@ -14,7 +15,7 @@ export const sidebar = [
     title: 'Buyurtmalar',
     path: '/buyurtmalar',
     Icon: buyurtmalar,
-    Component: Generic,
+    Component: Buyurtma,
     hidden: false,
   },
   {
