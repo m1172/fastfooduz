@@ -28,4 +28,6 @@ Add.Plus = styled(plus)`
   width: 36px;
   height: 36px;
   background: #20d472;
+  padding: 11px;
+  border-radius: 50%;
 `;

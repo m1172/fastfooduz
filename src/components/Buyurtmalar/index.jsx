@@ -1,11 +1,13 @@
 import React from 'react';
-import { Container, Header, Wrapper } from './style';
+import { Add, Container, Header, Wrapper } from './style';
 
 export const Buyurtmalar = () => {
   return (
     <Container>
       <Header>
-        <Wrapper></Wrapper>
+        <Wrapper>
+          <Add.Plus />
+        </Wrapper>
         <Wrapper center></Wrapper>
         <Wrapper></Wrapper>
       </Header>
