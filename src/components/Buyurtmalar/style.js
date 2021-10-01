@@ -47,12 +47,17 @@ Add.Title = styled.div`
 
 export const Tab = styled.div`
   display: flex;
+  align-items: center;
   width: 100%;
   background: #edeff3;
   border-radius: 24px;
+  height: 70px;
 `;
 
 Tab.Item = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 170px;
   height: 40px;
   background: #ffffff;
