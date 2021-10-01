@@ -14,7 +14,7 @@ export const Header = styled.div`
 
 export const Wrapper = styled.div`
   display: flex;
-  width: ${({ center }) => (center ? '100%' : '300px')};
+  width: ${({ center }) => (center ? '100%' : '320px')};
   height: 90px;
   align-items: center;
   border: 1px solid #e5e5e5;
@@ -48,6 +48,7 @@ Add.Title = styled.div`
 export const Tab = styled.div`
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
   background: #edeff3;
   border-radius: 24px;
