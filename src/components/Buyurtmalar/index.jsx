@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Add, Container, Header, Tab, Wrapper } from './style';
 
 export const Buyurtmalar = () => {
+  const [isActive, setIsActive] = useState('Yangi');
   return (
     <Container>
       <Header>
@@ -13,10 +14,30 @@ export const Buyurtmalar = () => {
         {/* 2 */}
         <Wrapper center>
           <Tab>
-            <Tab.Item>Yangi</Tab.Item>
-            <Tab.Item>Qabul qilingan</Tab.Item>
-            <Tab.Item>Jo'natilgan</Tab.Item>
-            <Tab.Item>Yopilgan</Tab.Item>
+            <Tab.Item
+              active={'Yangi' === isActive}
+              onclick={() => setIsActive('Yangi')}
+            >
+              Yangi
+            </Tab.Item>
+            <Tab.Item
+              active={'Qabul' === isActive}
+              onclick={() => setIsActive('Qabul')}
+            >
+              Qabul qilingan
+            </Tab.Item>
+            <Tab.Item
+              active={'Jonatilgan' === isActive}
+              onclick={() => setIsActive('Jonatilgan')}
+            >
+              Jo'natilgan
+            </Tab.Item>
+            <Tab.Item
+              active={'Yopilgan' === isActive}
+              onclick={() => setIsActive('Yopilgan')}
+            >
+              Yopilgan
+            </Tab.Item>
           </Tab>
         </Wrapper>
         {/* 3 */}
