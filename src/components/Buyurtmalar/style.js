@@ -44,3 +44,18 @@ Add.Title = styled.div`
   margin-left: 14px;
   cursor: pointer;
 `;
+
+export const Tab = styled.div`
+  display: flex;
+  width: 100%;
+  background: #edeff3;
+  border-radius: 24px;
+`;
+
+Tab.Item = styled.div`
+  width: 170px;
+  height: 40px;
+  background: #ffffff;
+  box-shadow: 0px 2px 2px rgba(174, 176, 181, 0.314986);
+  border-radius: 18px;
+`;
