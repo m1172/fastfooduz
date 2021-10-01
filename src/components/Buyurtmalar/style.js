@@ -23,7 +23,6 @@ export const Wrapper = styled.div`
 
 export const Add = styled.div`
   display: flex;
-  cursor: pointer;
 `;
 Add.Plus = styled(plus)`
   width: 36px;
@@ -37,7 +36,7 @@ Add.Plus = styled(plus)`
 `;
 
 Add.Title = styled.div`
-  font-family: SFProDisplay;
+  font-family: SFProDisplay bold;
   font-size: 12px;
   line-height: 16px;
   color: #2d3a45;
@@ -48,11 +47,11 @@ Add.Title = styled.div`
 export const Tab = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
   background: #edeff3;
   border-radius: 24px;
-  height: 70px;
+  height: 60px;
 `;
 
 Tab.Item = styled.div`
@@ -64,4 +63,6 @@ Tab.Item = styled.div`
   background: #ffffff;
   box-shadow: 0px 2px 2px rgba(174, 176, 181, 0.314986);
   border-radius: 18px;
+  color: #b7bcc0;
+  cursor: pointer;
 `;
