@@ -12,4 +12,6 @@ export const Header = styled.div`
 
 export const Wrapper = styled.div`
   display: flex;
+  width: ${({ center }) => (center ? '100%' : '300px')};
+  height: 80px;
 `;

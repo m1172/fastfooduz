@@ -1,8 +1,16 @@
 import React from 'react';
-import { Container } from './style';
+import { Container, Header, Wrapper } from './style';
 
 export const Buyurtmalar = () => {
-  return <Container>buyurtmalar</Container>;
+  return (
+    <Container>
+      <Header>
+        <Wrapper></Wrapper>
+        <Wrapper center></Wrapper>
+        <Wrapper></Wrapper>
+      </Header>
+    </Container>
+  );
 };
 
 export default Buyurtmalar;
