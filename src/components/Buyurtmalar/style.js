@@ -25,10 +25,10 @@ export const Add = styled.div`
   display: flex;
 `;
 Add.Plus = styled(plus)`
-  width: 36px;
+  width: 40px;
   height: 36px;
   background: #20d472;
-  padding: 11px;
+  padding: 9px;
   border-radius: 50%;
 `;
 
@@ -37,4 +37,5 @@ Add.Title = styled.div`
   font-size: 12px;
   line-height: 16px;
   color: #2d3a45;
+  margin-left: 14px;
 `;
