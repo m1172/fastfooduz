@@ -23,13 +23,17 @@ export const Wrapper = styled.div`
 
 export const Add = styled.div`
   display: flex;
+  cursor: pointer;
 `;
 Add.Plus = styled(plus)`
-  width: 40px;
+  width: 36px;
   height: 36px;
+  min-width: 36px;
+  min-height: 36px;
   background: #20d472;
   padding: 9px;
   border-radius: 50%;
+  cursor: pointer;
 `;
 
 Add.Title = styled.div`
@@ -38,4 +42,5 @@ Add.Title = styled.div`
   line-height: 16px;
   color: #2d3a45;
   margin-left: 14px;
+  cursor: pointer;
 `;
