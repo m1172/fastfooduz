@@ -31,3 +31,10 @@ Add.Plus = styled(plus)`
   padding: 11px;
   border-radius: 50%;
 `;
+
+Add.Title = styled.div`
+  font-family: SFProDisplay;
+  font-size: 12px;
+  line-height: 16px;
+  color: #2d3a45;
+`;

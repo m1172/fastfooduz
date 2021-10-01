@@ -7,6 +7,7 @@ export const Buyurtmalar = () => {
       <Header>
         <Wrapper>
           <Add.Plus />
+          <Add.Title>Yangi buyurtma qo'shish</Add.Title>
         </Wrapper>
         <Wrapper center></Wrapper>
         <Wrapper></Wrapper>
