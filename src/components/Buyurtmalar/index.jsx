@@ -54,10 +54,10 @@ export const Buyurtmalar = () => {
         {/* 3 */}
         <Wrapper>
           <Toggle>
-            <IconWrapper>
+            <IconWrapper active={on} onClick={() => setOn(true)}>
               <MenuH />
             </IconWrapper>
-            <IconWrapper>
+            <IconWrapper active={!on} onClick={() => setOn(false)}>
               <MenuV />
             </IconWrapper>
           </Toggle>
