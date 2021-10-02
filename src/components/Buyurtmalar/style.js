@@ -70,6 +70,7 @@ Tab.Item = styled.div`
 `;
 
 export const Toggle = styled.div`
+  display: flex;
   background: #edeff3;
   border-radius: 24px;
   height: 50px;

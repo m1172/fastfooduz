@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Add, Container, Header, Tab, Wrapper } from './style';
+import { Add, Container, Header, MenuH, Tab, Toggle, Wrapper } from './style';
 
 export const Buyurtmalar = () => {
   const [isActive, setIsActive] = useState('Yangi');
@@ -42,7 +42,11 @@ export const Buyurtmalar = () => {
           </Tab>
         </Wrapper>
         {/* 3 */}
-        <Wrapper></Wrapper>
+        <Wrapper>
+          <Toggle>
+            <MenuH />
+          </Toggle>
+        </Wrapper>
       </Header>
     </Container>
   );
