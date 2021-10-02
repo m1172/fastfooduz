@@ -32,7 +32,7 @@ Add.Plus = styled(plus)`
   min-width: 36px;
   min-height: 36px;
   background: #20d472;
-  padding: 9px;
+  padding: 10px;
   border-radius: 50%;
   cursor: pointer;
 `;
@@ -80,24 +80,22 @@ export const Toggle = styled.div`
   padding: 0 6px;
 `;
 
-export const MenuH = styled(menuH)`
+export const IconWrapper = styled.div`
   width: 36px;
   height: 36px;
   min-width: 36px;
   min-height: 36px;
   background: white;
-  padding: 9px;
+  padding: 11px;
   border-radius: 50%;
   cursor: pointer;
 `;
+export const MenuH = styled(menuH)`
+  width: 16px;
+  height: 16px;
+`;
 
 export const MenuV = styled(menuV)`
-  width: 36px;
-  height: 36px;
-  min-width: 36px;
-  min-height: 36px;
-  background: white;
-  padding: 9px;
-  border-radius: 50%;
-  cursor: pointer;
+  width: 16px;
+  height: 16px;
 `;
