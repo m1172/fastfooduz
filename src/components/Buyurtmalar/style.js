@@ -72,6 +72,7 @@ Tab.Item = styled.div`
 export const Toggle = styled.div`
   background: #edeff3;
   border-radius: 24px;
+  height: 50px;
 `;
 
 export const MenuH = styled(menuH)`
