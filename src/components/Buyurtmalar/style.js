@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import { ReactComponent as plus } from '../../assets/icons/plus.svg';
+import { ReactComponent as menuH } from '../../assets/icons/menuH.svg';
+import { ReactComponent as menuV } from '../../assets/icons/menuV.svg';
 
 export const Container = styled.div`
   display: flex;
@@ -64,5 +66,21 @@ Tab.Item = styled.div`
   box-shadow: 0px 2px 2px rgba(174, 176, 181, 0.314986);
   border-radius: 18px;
   color: #b7bcc0;
+  cursor: pointer;
+`;
+
+export const Toggle = styled.div`
+  background: #edeff3;
+  border-radius: 24px;
+`;
+
+export const MenuH = styled(menuH)`
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  min-height: 36px;
+  background: white;
+  padding: 9px;
+  border-radius: 50%;
   cursor: pointer;
 `;
