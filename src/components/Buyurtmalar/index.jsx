@@ -16,25 +16,25 @@ export const Buyurtmalar = () => {
           <Tab>
             <Tab.Item
               active={'Yangi' === isActive}
-              onclick={() => setIsActive('Yangi')}
+              onClick={() => setIsActive('Yangi')}
             >
               Yangi
             </Tab.Item>
             <Tab.Item
               active={'Qabul' === isActive}
-              onclick={() => setIsActive('Qabul')}
+              onClick={() => setIsActive('Qabul')}
             >
               Qabul qilingan
             </Tab.Item>
             <Tab.Item
               active={'Jonatilgan' === isActive}
-              onclick={() => setIsActive('Jonatilgan')}
+              onClick={() => setIsActive('Jonatilgan')}
             >
               Jo'natilgan
             </Tab.Item>
             <Tab.Item
               active={'Yopilgan' === isActive}
-              onclick={() => setIsActive('Yopilgan')}
+              onClick={() => setIsActive('Yopilgan')}
             >
               Yopilgan
             </Tab.Item>
