@@ -67,6 +67,7 @@ Tab.Item = styled.div`
   border-radius: 18px;
   color: #b7bcc0;
   cursor: pointer;
+  transition: all 0.3s;
 `;
 
 export const Toggle = styled.div`
@@ -89,6 +90,7 @@ export const IconWrapper = styled.div`
   padding: 11px;
   border-radius: 50%;
   cursor: pointer;
+  transition: all 0.3s;
 `;
 export const MenuH = styled(menuH)`
   width: 16px;
