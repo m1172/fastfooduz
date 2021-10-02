@@ -86,3 +86,14 @@ export const MenuH = styled(menuH)`
   border-radius: 50%;
   cursor: pointer;
 `;
+
+export const MenuV = styled(menuH)`
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  min-height: 36px;
+  background: white;
+  padding: 9px;
+  border-radius: 50%;
+  cursor: pointer;
+`;
