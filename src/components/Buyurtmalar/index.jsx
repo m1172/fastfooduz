@@ -3,6 +3,7 @@ import {
   Add,
   Container,
   Header,
+  IconWrapper,
   MenuH,
   MenuV,
   Tab,
@@ -53,8 +54,12 @@ export const Buyurtmalar = () => {
         {/* 3 */}
         <Wrapper>
           <Toggle>
-            <MenuH />
-            <MenuV />
+            <IconWrapper>
+              <MenuH />
+            </IconWrapper>
+            <IconWrapper>
+              <MenuV />
+            </IconWrapper>
           </Toggle>
         </Wrapper>
       </Header>
