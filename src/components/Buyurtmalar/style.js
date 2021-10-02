@@ -70,10 +70,14 @@ Tab.Item = styled.div`
 `;
 
 export const Toggle = styled.div`
+  width: 100px;
+  justify-content: space-between;
+  align-items: center;
   display: flex;
   background: #edeff3;
   border-radius: 24px;
   height: 50px;
+  padding: 0 6px;
 `;
 
 export const MenuH = styled(menuH)`
@@ -87,7 +91,7 @@ export const MenuH = styled(menuH)`
   cursor: pointer;
 `;
 
-export const MenuV = styled(menuH)`
+export const MenuV = styled(menuV)`
   width: 36px;
   height: 36px;
   min-width: 36px;
