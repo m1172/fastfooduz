@@ -60,7 +60,7 @@ Tab.Item = styled.div`
   justify-content: center;
   width: 170px;
   height: 40px;
-  background: #ffffff;
+  background: ${({ active }) => (active ? '#ffffff' : 'transparent')};
   box-shadow: 0px 2px 2px rgba(174, 176, 181, 0.314986);
   border-radius: 18px;
   color: #b7bcc0;
