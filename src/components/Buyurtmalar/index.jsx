@@ -3,6 +3,7 @@ import { Add, Container, Header, Tab, Wrapper } from './style';
 
 export const Buyurtmalar = () => {
   const [isActive, setIsActive] = useState('Yangi');
+  const [on, setOn] = useState(true);
   return (
     <Container>
       <Header>
