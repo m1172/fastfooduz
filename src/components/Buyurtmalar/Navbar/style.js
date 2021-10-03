@@ -3,6 +3,18 @@ import { ReactComponent as plus } from '../../../assets/icons/plus.svg';
 import { ReactComponent as menuH } from '../../../assets/icons/menuH.svg';
 import { ReactComponent as menuV } from '../../../assets/icons/menuV.svg';
 
+const getOrder = ({ order }) => {
+  switch (order) {
+    case '1':
+      return 1;
+    case '2':
+      return 3;
+    case '3':
+      return 2;
+    default:
+      return 1;
+  }
+};
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -24,6 +36,7 @@ export const Wrapper = styled.div`
   align-items: center;
   border: 1px solid #e5e5e5;
   padding: 10px 40px;
+  order: ${getOrder};
 `;
 
 export const Add = styled.div`
