@@ -53,7 +53,7 @@ export const Buyurtmalar = () => {
         </Wrapper>
         {/* 3 */}
         <Wrapper order='3'>
-          <Toggle>
+          <Toggle toggle>
             <IconWrapper active={on} onClick={() => setOn(true)}>
               <MenuH />
             </IconWrapper>

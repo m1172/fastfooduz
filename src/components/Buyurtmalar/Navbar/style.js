@@ -37,6 +37,9 @@ export const Wrapper = styled.div`
   border: 1px solid #e5e5e5;
   padding: 10px 40px;
   order: ${getOrder};
+  @media (max-width: 1440px) {
+    display: ${({ order }) => order === '3' && 'none'};
+  }
 `;
 
 export const Add = styled.div`
@@ -90,7 +93,7 @@ export const Toggle = styled.div`
   width: 100px;
   justify-content: space-between;
   align-items: center;
-  display: flex;
+  display: ${({ toggle }) => (toggle ? 'none' : 'flex')};
   background: #edeff3;
   border-radius: 24px;
   height: 50px;
