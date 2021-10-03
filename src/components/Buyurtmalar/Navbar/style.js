@@ -12,6 +12,9 @@ export const Container = styled.div`
 export const Header = styled.div`
   display: flex;
   background: white;
+  @media (max-width: 1440px) {
+    flex-direction: column;
+  }
 `;
 
 export const Wrapper = styled.div`
