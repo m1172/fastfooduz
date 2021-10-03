@@ -18,12 +18,12 @@ export const Buyurtmalar = () => {
     <Container>
       <Header>
         {/* 1 */}
-        <Wrapper first>
+        <Wrapper order='1'>
           <Add.Plus />
           <Add.Title>Yangi buyurtma qo'shish</Add.Title>
         </Wrapper>
         {/* 2 */}
-        <Wrapper center second>
+        <Wrapper center order='2'>
           <Tab>
             <Tab.Item
               active={'Yangi' === isActive}
@@ -52,7 +52,7 @@ export const Buyurtmalar = () => {
           </Tab>
         </Wrapper>
         {/* 3 */}
-        <Wrapper third>
+        <Wrapper order='3'>
           <Toggle>
             <IconWrapper active={on} onClick={() => setOn(true)}>
               <MenuH />
