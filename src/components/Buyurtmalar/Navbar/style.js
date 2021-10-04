@@ -26,6 +26,7 @@ export const Header = styled.div`
   background: white;
   @media (max-width: 1440px) {
     flex-direction: column;
+    width: 100%;
   }
 `;
 
@@ -36,9 +37,11 @@ export const Wrapper = styled.div`
   align-items: center;
   border: 1px solid #e5e5e5;
   padding: 10px 40px;
-  order: ${getOrder};
+
   @media (max-width: 1440px) {
+    order: ${getOrder};
     display: ${({ order }) => order === '3' && 'none'};
+    width: 100%;
   }
 `;
 
@@ -98,6 +101,10 @@ export const Toggle = styled.div`
   border-radius: 24px;
   height: 50px;
   padding: 0 6px;
+  @media (max-width: 1440px) {
+    display: flex;
+    margin-left: auto;
+  }
 `;
 
 export const IconWrapper = styled.div`
