@@ -19,6 +19,9 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 `;
 
 export const Header = styled.div`
