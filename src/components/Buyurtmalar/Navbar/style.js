@@ -124,9 +124,11 @@ export const IconWrapper = styled.div`
 export const MenuH = styled(menuH)`
   width: 16px;
   height: 16px;
+  fill: ${({ active }) => active && '#8d9ba8'};
 `;
 
 export const MenuV = styled(menuV)`
   width: 16px;
   height: 16px;
+  fill: ${({ active }) => active && '#8d9ba8'};
 `;

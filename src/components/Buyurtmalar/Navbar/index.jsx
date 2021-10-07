@@ -61,10 +61,10 @@ export const Navbar = () => {
       <Wrapper order='3'>
         <Toggle>
           <IconWrapper active={on} onClick={() => setOn(true)}>
-            <MenuH />
+            <MenuH active={on} />
           </IconWrapper>
           <IconWrapper active={!on} onClick={() => setOn(false)}>
-            <MenuV />
+            <MenuV active={!on} />
           </IconWrapper>
         </Toggle>
       </Wrapper>
