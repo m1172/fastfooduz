@@ -27,6 +27,7 @@ export const Container = styled.div`
 export const Header = styled.div`
   display: flex;
   background: white;
+  width: 100%;
   @media (max-width: 1440px) {
     flex-direction: column;
     width: 100%;
@@ -35,12 +36,11 @@ export const Header = styled.div`
 
 export const Wrapper = styled.div`
   display: flex;
-  width: ${({ center }) => (center ? '100%' : '320px')};
+  width: ${({ center }) => (center ? '100%' : '300px')};
   height: 90px;
   align-items: center;
   border: 1px solid #e5e5e5;
   padding: 10px 40px;
-
   @media (max-width: 1440px) {
     order: ${getOrder};
     display: ${({ order }) => order === '3' && 'none'};
@@ -51,13 +51,14 @@ export const Wrapper = styled.div`
 export const Add = styled.div`
   display: flex;
 `;
+
 Add.Plus = styled(plus)`
   width: 36px;
   height: 36px;
   min-width: 36px;
   min-height: 36px;
   background: #20d472;
-  padding: 10px;
+  padding: 11px;
   border-radius: 50%;
   cursor: pointer;
 `;
@@ -87,9 +88,8 @@ Tab.Item = styled.div`
   justify-content: center;
   width: 170px;
   height: 40px;
-  background: ${({ active }) => (active ? '#ffffff' : 'transparent')};
-  /* box-shadow: 0px 2px 2px rgba(174, 176, 181, 0.314986); */
   border-radius: 18px;
+  background: ${({ active }) => (active ? 'white' : 'transparent')};
   color: #b7bcc0;
   cursor: pointer;
   transition: all 0.3s;
@@ -109,7 +109,6 @@ export const Toggle = styled.div`
     margin-left: auto;
   }
 `;
-
 export const IconWrapper = styled.div`
   width: 36px;
   height: 36px;
@@ -124,11 +123,10 @@ export const IconWrapper = styled.div`
 export const MenuH = styled(menuH)`
   width: 16px;
   height: 16px;
-  fill: ${({ active }) => active && '#8d9ba8'};
+  fill: ${({ active }) => active && '#8D9BA8'};
 `;
-
 export const MenuV = styled(menuV)`
   width: 16px;
   height: 16px;
-  fill: ${({ active }) => active && '#8d9ba8'};
+  fill: ${({ active }) => (active ? '#8D9BA8' : 'transparent')};
 `;
