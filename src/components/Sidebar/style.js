@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
-
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -92,5 +91,5 @@ export const Logout = styled.div`
   line-height: 19px;
   color: #2d3a45;
   cursor: pointer;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 `;

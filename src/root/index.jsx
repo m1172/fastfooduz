@@ -5,9 +5,9 @@ import {
   Route,
   Redirect,
 } from 'react-router-dom';
+import { Body, Container } from './style';
 import Sidebar from '../components/Sidebar';
 import { sidebar } from '../utils/sidebar';
-import { Body, Container } from './style';
 import Notfound from '../components/Notfound';
 
 export const Root = () => {
@@ -19,11 +19,11 @@ export const Root = () => {
             <Route path={path} component={Sidebar} />
           ))}
         </Switch>
+
         <Switch>
           {sidebar.map(({ id, path, Component }) => (
             <Route path={path} component={Component} />
           ))}
-
           <Route exact path='/'>
             <Redirect to='/buyurtmalar' />
           </Route>

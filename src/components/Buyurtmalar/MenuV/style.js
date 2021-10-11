@@ -1,9 +1,10 @@
-import styled from 'styled-components';
+const { default: styled } = require('styled-components');
 
 export const Container = styled.div`
   display: flex;
   margin: 35px;
-  overflow: scroll;
+  /* min-width: 1440px; */
+  overflow-x: scroll;
 `;
 
 export const Wrapper = styled.div`

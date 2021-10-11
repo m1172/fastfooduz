@@ -1,9 +1,10 @@
 import React from 'react';
 import { Container, Wrapper } from './style';
-import Card from '../../ProductCard';
-import { card } from '../../../mock/card';
+import Card from '../../ProductCardV';
+import { Buyurtma } from '../../../context/buyurtmalar';
 
 export const Body = () => {
+  const [card] = Buyurtma();
   return (
     <Container>
       <Wrapper>
@@ -29,4 +30,5 @@ export const Body = () => {
     </Container>
   );
 };
+
 export default Body;

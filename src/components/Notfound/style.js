@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import bg from '../../assets/imgs/notfound.jpeg';
-
 export const Container = styled.div`
   background-image: url(${bg});
   background-repeat: no-repeat;
