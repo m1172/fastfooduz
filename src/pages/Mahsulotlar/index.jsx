@@ -1,6 +1,6 @@
 import React from 'react';
-import Mahsulotlar from '../../components/Mahsulotlar';
+import Mahsulot from '../../components/Mahsulotlar';
 
-export const Mahsulotlar = () => <Mahsulotlar />;
+export const Mahsulotlar = () => <Mahsulot />;
 
 export default Mahsulotlar;
