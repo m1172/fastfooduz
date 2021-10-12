@@ -11,6 +11,7 @@ import Generic from '../pages/Generic';
 import Katalog from '../pages/Katalog';
 
 import Buyurtmalar from '../pages/Buyurtmalar';
+import Mahsulotlar from '../pages/Mahsulotlar';
 
 export const sidebar = [
   {
@@ -26,7 +27,7 @@ export const sidebar = [
     title: 'Mahsulotlar',
     path: '/mahsulotlar',
     Icon: mahsulotlar,
-    Component: Generic,
+    Component: Mahsulotlar,
     hidden: false,
   },
   {

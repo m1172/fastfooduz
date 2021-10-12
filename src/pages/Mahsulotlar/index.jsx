@@ -1,11 +1,6 @@
 import React from 'react';
+import Mahsulotlar from '../../components/Mahsulotlar';
 
-export const Mahsulotlar = ({ location }) => {
-  return (
-    <div>
-      <h1>Coming soon {location.pathname}</h1>
-    </div>
-  );
-};
+export const Mahsulotlar = () => <Mahsulotlar />;
 
-export default Generic;
+export default Mahsulotlar;
